@@ -1,4 +1,4 @@
-const readline = require('readline');
+const readline = require("readline");
 
 function playRockPaperScissors() {
   const moves = ["rock", "paper", "scissors"];
@@ -10,7 +10,7 @@ function playRockPaperScissors() {
 
   const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout
+    output: process.stdout,
   });
 
   rl.question("Choose your move (rock, paper, or scissors): ", (playerMove) => {
@@ -32,5 +32,4 @@ function playRockPaperScissors() {
   });
 }
 
-// Example usage:
 playRockPaperScissors();
